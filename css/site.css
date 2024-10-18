@@ -1,6 +1,56 @@
-.background-div {
+@import url("typography.css");
+
+.hero-div {
     width: 100%;
     height: 500px;
     background-size: cover;
     background-position: center;
+}
+
+.hero-title {
+    color: white;
+    font-size: 144px;
+    text-align: center;
+}
+
+.hero-tagline {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.headline {
+    font-size: 72px;
+}
+
+.blurb {
+    font-size: 36px;
+}
+
+.text-center {
+    display: grid;
+    place-items: center;
+    border:2px;
+    border-color: blue;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;    
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 400px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
 }
