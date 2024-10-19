@@ -1,10 +1,58 @@
 @import url("typography.css");
 
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: lightgray;
+}
+
+nav a:active {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
 .hero-div {
     width: 100%;
     height: 500px;
     background-size: cover;
     background-position: center;
+}
+
+.hero-container {
+    width: 100%;
+    max-height: 30vh;
+    background-image: url('/images/Hero Image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.all-caps {
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .hero-title {
@@ -15,26 +63,40 @@
 
 .hero-tagline {
     color: white;
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .headline {
-    font-size: 72px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .blurb {
-    font-size: 36px;
+    display: flow-root;
+    font-size: 24px;
+    margin: 3rem;
+}
+
+.blurb-image-right {
+    width: 400px;
+    float: right;
+    margin-left: 5px;
+}
+
+.blurb-image-left {
+    width: 400px;
+    float: left;
+    margin-right: 5px;
 }
 
 .text-center {
     display: grid;
     place-items: center;
-    border:2px;
-    border-color: blue;
 }
 
-.image-container {
+/* .image-container {
     position: relative;
     width: 100%;    
 }
@@ -53,4 +115,20 @@
     padding: 10px;
     text-align: center;
     border-radius: 5px;
+} */
+
+.container {
+    width: 75%;
+    margin: 0 auto; /* Center the container */
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center; /* Center child divs horizontally */
+    flex-wrap: wrap; /* Wrap child divs if they overflow */
+}
+
+.child-div {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 100%; /* Adjust size as needed */
 }
