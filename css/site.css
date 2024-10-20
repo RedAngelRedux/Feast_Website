@@ -53,7 +53,7 @@ footer {
 .hero-container {
     width: 100%;
     max-height: 30vh;
-    background-image: url('/images/Hero Image.png');
+    background-image: url('/images/Hero Image.min.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
