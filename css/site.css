@@ -112,12 +112,6 @@ footer {
     margin-left: 10px;
 }
 
-.blurb-text-left {
-    width: 06%;
-    margin-top: .5rem;
-    margin-left: 10px;
-}
-
 .text-center {
     display: grid;
     place-items: center;
