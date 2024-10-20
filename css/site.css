@@ -112,6 +112,12 @@ footer {
     margin-left: 10px;
 }
 
+.blurb-text-left {
+    width: 06%;
+    margin-top: .5rem;
+    margin-left: 10px;
+}
+
 .text-center {
     display: grid;
     place-items: center;
@@ -123,6 +129,14 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-item {
+    padding-bottom: .5rem;
 }
 
 .child-div {
